@@ -4,7 +4,7 @@ public class VariablesContinued {
     public static void main(String[] args) {
         // int data type
         int num = 100000000;
-        System.out.println(num);
+        //System.out.println(num);
         // Long data type, holds larger numbers
         long bigNumber = 10000000000000L;
         // short data type, can only hold 32767
