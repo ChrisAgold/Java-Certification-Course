@@ -8,6 +8,10 @@ public class Human {
 
     // Constructor Method
     public Human() {
+        age = 5;
+        eyeColor = "brown";
+        heightInInches = 72;
+        name = "Tom Asako";
     }
 
     public void speak() {
