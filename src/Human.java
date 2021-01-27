@@ -6,12 +6,14 @@ public class Human {
     int heightInInches;
     String eyeColor;
 
+
     // Constructor Method
-    public Human() {
-        age = 5;
-        eyeColor = "brown";
-        heightInInches = 72;
-        name = "Tom Asako";
+    public Human(String name, int age, int heightInInches, String eyeColor) {
+        super();
+        this.age = age;
+        this.eyeColor = eyeColor;
+        this.heightInInches = heightInInches;
+        this.name = name;
     }
 
     public void speak() {
@@ -23,14 +25,36 @@ public class Human {
     public void eat() {
         System.out.println("eating...");
     }
+
     public void walk() {
         System.out.println("walking...");
     }
+
     public void work() {
         System.out.println("working...");
     }
+}
 
+// Exercise Zoo Class
+class Zoo {
+    String name;
+    int age;
+    int weightInPounds;
+    String color;
 
-
+    // Constructor Method
+    public Zoo(String name, int age, int weightInPounds, String color) {
+        super();
+        this.age = age;
+        this.color = color;
+        this.weightInPounds = weightInPounds;
+        this.name = name;
+    }
+    public void animal() {
+        System.out.println("Hello, I am a " + name);
+        System.out.println("I weight " + weightInPounds);
+        System.out.println("My color is " + color);
+    }
 
 }
+
