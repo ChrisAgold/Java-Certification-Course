@@ -23,9 +23,9 @@ public class Earth {
         human2.speak();
         human3.speak();
 
-        Zoo tiger = new Zoo("Tiger", 8, 200, "Orange");
-        Zoo lion = new Zoo("lion", 7,220,"Yellow");
-        tiger.animal();
+//        Zoo tiger = new Zoo("Tiger", 8, 200, "Orange");
+//        Zoo lion = new Zoo("lion", 7,220,"Yellow");
+//        tiger.animal();
     }
 
 

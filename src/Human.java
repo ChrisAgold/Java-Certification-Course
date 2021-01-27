@@ -36,25 +36,25 @@ public class Human {
 }
 
 // Exercise Zoo Class
-class Zoo {
-    String name;
-    int age;
-    int weightInPounds;
-    String color;
+//class Zoo {
+//    String name;
+//    int age;
+//    int weightInPounds;
+//    String color;
 
     // Constructor Method
-    public Zoo(String name, int age, int weightInPounds, String color) {
-        super();
-        this.age = age;
-        this.color = color;
-        this.weightInPounds = weightInPounds;
-        this.name = name;
-    }
-    public void animal() {
-        System.out.println("Hello, I am a " + name);
-        System.out.println("I weight " + weightInPounds);
-        System.out.println("My color is " + color);
-    }
+//    public Zoo(String name, int age, int weightInPounds, String color) {
+//        super();
+//        this.age = age;
+//        this.color = color;
+//        this.weightInPounds = weightInPounds;
+//        this.name = name;
+//    }
+//    public void animal() {
+//        System.out.println("Hello, I am a " + name);
+//        System.out.println("I weight " + weightInPounds);
+//        System.out.println("My color is " + color);
+//    }
 
-}
+//}
 
