@@ -1,5 +1,3 @@
-package java_basics;
-
 public class Animal {
     int age;
     String gender;
@@ -17,4 +15,8 @@ public class Animal {
     public void sleep() {
         System.out.println("Sleeping....");
     }
+
+
+
+
 }
