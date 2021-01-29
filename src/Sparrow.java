@@ -5,7 +5,6 @@ public class Sparrow extends Bird implements Flyable{
         super(age, gender, weightInlbs);
     }
 
-    @Override
     public void fly() {
         System.err.println("Sparrow flying");
     }

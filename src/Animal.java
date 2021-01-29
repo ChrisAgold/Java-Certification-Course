@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     int age;
     String gender;
     int weightInlabs;
@@ -8,6 +8,10 @@ public class Animal {
         this.gender = gender;
         this.weightInlabs = weightInlbs;
     }
+
+    // Make abstract class
+    public abstract void move();
+
 
     public void eat() {
         System.out.println("Eating...");
