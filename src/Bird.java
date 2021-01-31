@@ -7,7 +7,7 @@ public class Bird extends Animal { // Bird is a child of Animal
 
     // general method for moving
     public void move() {
-        System.out.println("Fapping Wings...");
+        System.out.println("Flapping Wings...");
     }
 
     // Need to create interface since many birds do not fly and account for them
