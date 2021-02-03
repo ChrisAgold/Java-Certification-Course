@@ -3,7 +3,7 @@ package java_basics;
 public class Arrays {
     public static void main(String[] args) {
         System.out.println("Welcome to our zombie killer program!");
-System.out.println();
+        System.out.println();
         String backpack[] = {"Shotgun", "Assault Rifle", "Sniper"};
         String zombies[] = {"Close-range", "Mid-range", "Long-range"};
 

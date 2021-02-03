@@ -14,10 +14,4 @@ public class OOP {
         p.unclick();
         System.out.println(p.clicked);
     }
-
-
-
-
-
-
 }
